@@ -1,0 +1,61 @@
+
+@import '../../../styles/variables.scss';
+@import '../../../styles/override.scss';
+
+.ew_EventActions__Panel {
+	color: $white;
+	border-color: transparent;
+	border-radius: $border-radius-lg;
+	@extend .darkGradient;
+	&:before,
+	&:after { display: none }
+}
+
+.ew_EventActions__Panel .p-overlaypanel-content {
+	padding: $u;
+}
+
+.ew_MenuButton__Menu {
+	margin-top: 0;
+	background: none;
+	border: none;
+	padding: 0;
+	min-width: 8rem;
+	width: auto;
+	max-width: 12.5rem;
+
+	&.p-menu .p-menuitem-link {
+		padding: $u * 0.5 $u * 0.6 $u * 0.5 $u * 0.6;
+		color: $white;
+		font-size: $fontSizeBase;
+		@extend .smooth;
+
+		.p-menuitem-icon {
+			color: $white;
+			margin-right: $u;
+			@extend .smooth;
+		}
+
+		.p-menuitem-text {
+			color: $white;
+			@extend .smooth;
+		}
+
+		&:hover {
+			background: none;
+			color: $primary;
+
+			.p-menuitem-icon {
+				color: $primary
+			}
+
+			.p-menuitem-text {
+				color: $primary
+			}
+		}
+
+		&:focus {
+			box-shadow: none
+		}
+	}
+}

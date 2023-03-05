@@ -1,0 +1,10 @@
+
+body {
+	font-size: $fontSizeBase;
+	font-family: $fontFamilyBase;
+	margin: 0;
+}
+
+
+.p-button:focus,
+.p-panelmenu .p-panelmenu-header>a:focus { outline: 0 none; box-shadow: none }

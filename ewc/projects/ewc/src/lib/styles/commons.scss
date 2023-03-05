@@ -1,0 +1,40 @@
+@import  "./variables.scss";
+
+body {
+	font-family: $fontFamilyBase;
+	font-size: $fontSizeBase;
+	color: $dark;
+	margin: 0;
+}
+
+a {
+	color: $linkColor;
+	text-decoration: none;
+	&:hover {
+		color: $linkColorHover;
+		text-decoration: none;
+	}
+}
+
+h1 { font-size: $h1FontSize; line-height: $h1FontLineHeight; }
+h2 { font-size: $h2FontSize; line-height: $h2FontLineHeight; }
+h3 { font-size: $h3FontSize; line-height: $h3FontLineHeight; }
+h4 { font-size: $h4FontSize; line-height: $h4FontLineHeight; }
+h5 { font-size: $h5FontSize; line-height: $h5FontLineHeight; }
+h6 { font-size: $h6FontSize; line-height: $h6FontLineHeight; }
+
+.smooth {
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	-ms-transition: opacity 0.5s ease-in-out;
+	-o-transition: opacity 0.5s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.darkGradient {
+	background: $black;
+	background: -moz-linear-gradient(10deg, $black 0%, $dark 70%,$dark 100%);
+	background: -webkit-linear-gradient(10deg, $black 0%, $dark 70%,$dark 100%);
+	background: linear-gradient(10deg, $black 0%, $dark 70%,$dark 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$black, endColorstr=$dark, GradientType=1);
+}

@@ -1,0 +1,9 @@
+@use "../../../../node_modules/primeflex/primeflex.scss" as *;
+@use "../../../../node_modules/primeicons/primeicons.css" as *;
+@use "../../../../node_modules/primeng/resources/primeng.css" as *;
+@use "../../../../node_modules/primeng/resources/themes/bootstrap4-light-blue/theme.css" as *;
+
+@use './styles/variables.scss';
+@use './styles/commons.scss';
+@use './styles/override.scss';
+@use './styles/animations.scss';

@@ -1,0 +1,11 @@
+<button
+	pButton
+	pRipple
+	type="button"
+	icon="pi pi-cog"
+	class="ew_EventActions__Button ew_EventActions__Button--Edit"
+	(click)="op.toggle($event)">
+</button>
+<p-overlayPanel #op styleClass="ew_EventActions__Panel">
+	<p-menu *ngIf="menu && menu.length > 0" [model]="menu" styleClass="ew_MenuButton__Menu"></p-menu>
+</p-overlayPanel>

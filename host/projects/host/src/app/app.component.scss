@@ -1,0 +1,43 @@
+@import "../../../../node_modules/ewc/lib/styles/variables.scss";
+
+.ew_shell {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.ew_shell__Aside {
+	background-color: $dark;
+	padding: $u;
+	color: $white;
+	height: 100vh;
+	width: 10vw;
+	position: relative;
+}
+
+.ew_shell__Aside.ew_shell__Main--expanded { transform: translateX(0) }
+.ew_shell__Aside.ew_shell__Main--collapsed { transform: translateX(-70%) }
+
+.ew_shell__Header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: $u;
+	background-color: $white;
+}
+
+.ew_shell__Body {
+	flex: 1;
+	background-color: $gray-100;
+	width: 90vw;
+}
+
+.ew_shell__Body.ew_shell__Body--expanded { }
+
+.ew_shell__Body.ew_shell__Body--collapsed {}
+
+.ew_shell__Main {
+	padding: $u;
+}

@@ -1,0 +1,6 @@
+export var buttonsActionTypes;
+(function (buttonsActionTypes) {
+    buttonsActionTypes["ACCEPT"] = "Accept";
+    buttonsActionTypes["REJECT"] = "Reject";
+})(buttonsActionTypes || (buttonsActionTypes = {}));
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYWN0aW9ucy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uL3Byb2plY3RzL2V3Yy9zcmMvbGliL2NvbXBvbmVudHMvX2J1dHRvbnMvYWN0aW9ucy50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxNQUFNLENBQU4sSUFBWSxrQkFHWDtBQUhELFdBQVksa0JBQWtCO0lBQzdCLHVDQUFpQixDQUFBO0lBQ2pCLHVDQUFpQixDQUFBO0FBQ2xCLENBQUMsRUFIVyxrQkFBa0IsS0FBbEIsa0JBQWtCLFFBRzdCIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGVudW0gYnV0dG9uc0FjdGlvblR5cGVzIHtcblx0QUNDRVBUID0gJ0FjY2VwdCcsXG5cdFJFSkVDVCA9ICdSZWplY3QnXG59Il19

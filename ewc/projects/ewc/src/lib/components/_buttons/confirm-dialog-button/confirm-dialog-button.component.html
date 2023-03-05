@@ -1,0 +1,14 @@
+<button
+	pButton
+	pRipple
+	type="button"
+	[label]="label" 
+	icon="{{ icon ? 'pi ' + icon : '' }}"
+	class="ew_ConfirmDialogButton {{ classNames }}"
+	(click)="openDialog()">
+</button>
+<p-confirmDialog
+	[header]="dialogTitle"
+	icon="pi {{ dialogIcon }}"
+	[message]="dialogMessage">
+</p-confirmDialog>
